@@ -65,7 +65,7 @@
                 </RelativeLayout>
 
                 <RelativeLayout
-                        android:id="@+id/rellay_doaharian"
+                        android:id="@+id/rellay_asmaulHusna"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="0.55"
@@ -94,7 +94,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_below="@+id/imgView2"
                                 android:layout_centerHorizontal="true"
-                                android:text="Doa Harian"
+                                android:text="Asmaul Husna"
                                 android:layout_marginTop="5dp"
                                 android:textSize="17sp" />
 

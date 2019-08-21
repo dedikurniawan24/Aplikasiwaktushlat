@@ -13,7 +13,7 @@ android {
     buildToolsVersion "29.0.0"
     defaultConfig {
         applicationId "com.dedi.aplikasitimeshalat"
-        minSdkVersion 15
+        minSdkVersion 21
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
@@ -44,4 +44,6 @@ dependencies {
     implementation 'com.jakewharton:butterknife:10.1.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:10.1.0'
     implementation 'com.google.android.material:material:1.1.0-alpha09'
+    implementation 'com.facebook.shimmer:shimmer:0.1.0@aar'
+    implementation 'com.codesgood:justifiedtextview:1.0.2'
 }

@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
 
     internal lateinit var rellay_jadwal: RelativeLayout //rellay_jadwal
     internal lateinit var rellay_halal: RelativeLayout //rellay_halal
-    internal lateinit var rellay_doaharian: RelativeLayout //rellay_doaharian
+    internal lateinit var rellay_asmaulhusna: RelativeLayout //rellay_asmaulhusna
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 
         rellay_jadwal = findViewById(R.id.rellay_jadwal)
         rellay_halal = findViewById(R.id.rellay_halal)
-        rellay_doaharian = findViewById(R.id.rellay_doaharian)
+        rellay_asmaulhusna= findViewById(R.id.rellay_asmaulHusna)
 
 
         rellay_jadwal.setOnClickListener {
@@ -34,8 +34,8 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        rellay_doaharian.setOnClickListener {
-            val intent = Intent(this@MainActivity, Activity_DoaHarian::class.java)
+        rellay_asmaulhusna.setOnClickListener {
+            val intent = Intent(this@MainActivity, ActivityAsmaulHusna::class.java)
             intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP)
             startActivity(intent)
 
